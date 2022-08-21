@@ -1,0 +1,38 @@
+{
+  "name": "@nayzacgithub/nz-dropzone",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/NayzacGithub"
+  },
+  "version": "0.0.1",
+  "description": "nz-dropzone is an \"Image dropzone\" component that you can install and configure to allow users to upload files to the cloud.",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "keywords": [
+    "Image",
+    "dropzone",
+    "drag",
+    "and",
+    "drop",
+    "dropzone"
+  ],
+  "author": "Nour Sofanati",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/react": "^18.0.17",
+    "react": "^18.2.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}
